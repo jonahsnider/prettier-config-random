@@ -1,5 +1,6 @@
 {
 	"name": "prettier-config-random",
+	"description": "A randomly generated Prettier config",
 	"version": "0.0.0-development",
 	"bugs": {
 		"url": "https://github.com/jonahsnider/prettier-config-random/issues",
