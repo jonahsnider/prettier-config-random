@@ -1,0 +1,34 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    name: Test
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout git repository
+        uses: actions/checkout@v2
+      - name: Run tests
+        run: yarn test
+  deploy:
+    name: Deploy
+
+    runs-on: ubuntu-latest
+
+    # Don't run this job if we aren't on main branch
+    # `semantic-release` will do this automatically
+    if: ${{ github.ref  == 'refs/heads/main' }}
+
+    needs: [test]
+
+    steps:
+      - name: Checkout git repository
+        uses: actions/checkout@v2
+      - name: Deploy
+        run: yarn run deploy
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

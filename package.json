@@ -1,0 +1,31 @@
+{
+	"version": "0.0.0-development",
+	"bugs": {
+		"url": "https://github.com/jonahsnider/prettier-config-random/issues",
+		"email": "jonah@jonah.pw"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jonahsnider/prettier-config-random.git"
+	},
+	"license": "Apache-2.0",
+	"author": {
+		"name": "Jonah Snider",
+		"email": "jonah@jonah.pw",
+		"url": "https://jonah.pw"
+	},
+	"main": "./index.js",
+	"scripts": {
+		"deploy": "semantic-release",
+		"test": "node ."
+	},
+	"dependencies": {
+		"@jonahsnider/util": "2.10.0"
+	},
+	"devDependencies": {
+		"@types/node": "14.14.41",
+		"prettier": "2.2.1",
+		"semantic-release": "17.4.2",
+		"typescript": "4.2.4"
+	}
+}
