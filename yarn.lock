@@ -3439,6 +3439,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier-config-random@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "prettier-config-random@workspace:."
+  dependencies:
+    "@jonahsnider/util": 2.10.0
+    "@types/node": 14.14.41
+    prettier: 2.2.1
+    semantic-release: 17.4.2
+    typescript: 4.2.4
+  languageName: unknown
+  linkType: soft
+
 "prettier@npm:2.2.1":
   version: 2.2.1
   resolution: "prettier@npm:2.2.1"
@@ -3790,18 +3802,6 @@ __metadata:
   checksum: f0de3e445581e64a8a077af476cc30708e659f5779ec2ca2a161556d0792aa318a685923798ae22055b4ecd02b9aff444ef619578f7af53cf8e0e248031e3dee
   languageName: node
   linkType: hard
-
-"root-workspace-0b6124@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "root-workspace-0b6124@workspace:."
-  dependencies:
-    "@jonahsnider/util": 2.10.0
-    "@types/node": 14.14.41
-    prettier: 2.2.1
-    semantic-release: 17.4.2
-    typescript: 4.2.4
-  languageName: unknown
-  linkType: soft
 
 "run-parallel@npm:^1.1.9":
   version: 1.2.0
