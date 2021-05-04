@@ -7,10 +7,10 @@ const boolean = [false, true];
 /** @type {import('prettier').Options} */
 module.exports = {
 	get printWidth() {
-		return sample([80, 100, 120, 140, 160]);
+		return sample([20, 80, 100, 120, 140, 160]);
 	},
 	get tabWidth() {
-		return sample([2, 4, 6, 8]);
+		return sample([0, 2, 4, 6, 8]);
 	},
 	get useTabs() {
 		return sample(boolean);
@@ -55,3 +55,5 @@ module.exports = {
 		return sample(["lf", "crlf", "cr"]);
 	},
 };
+
+console.trace();
