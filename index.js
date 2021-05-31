@@ -55,4 +55,3 @@ module.exports = {
 		return sample(["lf", "crlf", "cr"]);
 	},
 };
-
