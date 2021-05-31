@@ -40,8 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jonahsnider/util", "npm:2.13.0"],
             ["@types/node", "npm:14.17.1"],
             ["prettier", "npm:2.3.0"],
-            ["semantic-release", "npm:17.4.3"],
-            ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
+            ["semantic-release", "npm:17.4.3"]
           ],
           "linkType": "SOFT",
         }]
@@ -4030,8 +4029,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@jonahsnider/util", "npm:2.13.0"],
             ["@types/node", "npm:14.17.1"],
             ["prettier", "npm:2.3.0"],
-            ["semantic-release", "npm:17.4.3"],
-            ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
+            ["semantic-release", "npm:17.4.3"]
           ],
           "linkType": "SOFT",
         }]
@@ -5114,15 +5112,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["typedarray-to-buffer", "npm:3.1.5"],
             ["is-typedarray", "npm:1.0.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["typescript", [
-        ["patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e", {
-          "packageLocation": "./.yarn/cache/typescript-patch-70a7929abf-3be4431759.zip/node_modules/typescript/",
-          "packageDependencies": [
-            ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"]
           ],
           "linkType": "HARD",
         }]
