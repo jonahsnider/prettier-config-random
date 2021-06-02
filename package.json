@@ -25,7 +25,7 @@
 		"test": "node ."
 	},
 	"dependencies": {
-		"@jonahsnider/util": "2.13.0"
+		"@jonahsnider/util": "2.14.0"
 	},
 	"devDependencies": {
 		"@types/node": "14.17.1",
