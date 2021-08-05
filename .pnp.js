@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@jonahsnider/util", "npm:4.3.0"],
-            ["@types/node", "npm:14.17.7"],
+            ["@types/node", "npm:14.17.9"],
             ["prettier", "npm:2.3.2"],
             ["semantic-release", "npm:17.4.4"]
           ],
@@ -631,10 +631,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@types/node", [
-        ["npm:14.17.7", {
-          "packageLocation": "./.yarn/cache/@types-node-npm-14.17.7-021f33689c-c9c3954bde.zip/node_modules/@types/node/",
+        ["npm:14.17.9", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-14.17.9-a08e8ecb07-b1d145b37d.zip/node_modules/@types/node/",
           "packageDependencies": [
-            ["@types/node", "npm:14.17.7"]
+            ["@types/node", "npm:14.17.9"]
           ],
           "linkType": "HARD",
         }]
@@ -4027,7 +4027,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["prettier-config-random", "workspace:."],
             ["@jonahsnider/util", "npm:4.3.0"],
-            ["@types/node", "npm:14.17.7"],
+            ["@types/node", "npm:14.17.9"],
             ["prettier", "npm:2.3.2"],
             ["semantic-release", "npm:17.4.4"]
           ],
