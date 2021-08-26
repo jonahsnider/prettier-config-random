@@ -3446,7 +3446,7 @@ __metadata:
     "@jonahsnider/util": 7.2.0
     "@types/node": 14.17.11
     prettier: 2.3.2
-    semantic-release: 17.4.6
+    semantic-release: 17.4.7
   languageName: unknown
   linkType: soft
 
@@ -3832,9 +3832,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:17.4.6":
-  version: 17.4.6
-  resolution: "semantic-release@npm:17.4.6"
+"semantic-release@npm:17.4.7":
+  version: 17.4.7
+  resolution: "semantic-release@npm:17.4.7"
   dependencies:
     "@semantic-release/commit-analyzer": ^8.0.0
     "@semantic-release/error": ^2.2.0
@@ -3866,7 +3866,7 @@ __metadata:
     yargs: ^16.2.0
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 4ceb1d270598cd03a046703dceb6edb502f598fb4a84d030fcf08a823768307ed937c900cbbc1055f00d8e371af1292bf4011140f6be2ee7d552dcf24bb1b72a
+  checksum: 347fa8e03f3621ff925fa59e18ac5ab2b393120fc33361528b0dc6d622753a9aaf38e59fd15a7ef15f25f0eb3b30615159132ad10494aa1c5c37f174e4eaba40
   languageName: node
   linkType: hard
 
