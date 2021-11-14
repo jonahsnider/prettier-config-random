@@ -32,10 +32,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jonahsnider/util@npm:8.4.1":
-  version: 8.4.1
-  resolution: "@jonahsnider/util@npm:8.4.1"
-  checksum: 438eb30d851099e46fab3aac548448c2bcc623f81c70bca0f77e4f597858ba1551f94ce432eebf9565f6b1ad2a436e34e1b79173d7178b78bc98abed3439f7b5
+"@jonahsnider/util@npm:8.4.2":
+  version: 8.4.2
+  resolution: "@jonahsnider/util@npm:8.4.2"
+  checksum: 2786bb4220c8f4ed6dc5be20b8ecce9b2e82c8a0125f57feca8bd6f5659f36c017fc89ef28a7899e96b459883a16c96f34db9cfdcd9f05514dffca6e25dd1a67
   languageName: node
   linkType: hard
 
@@ -3449,7 +3449,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "prettier-config-random@workspace:."
   dependencies:
-    "@jonahsnider/util": 8.4.1
+    "@jonahsnider/util": 8.4.2
     "@types/node": 16.11.7
     prettier: 2.4.1
     semantic-release: 18.0.0
