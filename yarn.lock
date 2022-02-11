@@ -474,10 +474,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:16.11.22":
-  version: 16.11.22
-  resolution: "@types/node@npm:16.11.22"
-  checksum: 71a248abe2b66e38874e5331e8442150f2f1eaa19c7253072eab1a3129296c75893507901a60d736bcae59b255c2357af7c9336efcf2b36f55656a09db41a47b
+"@types/node@npm:16.11.24":
+  version: 16.11.24
+  resolution: "@types/node@npm:16.11.24"
+  checksum: c6d13c17b3f91d650234f1cdbcb27811bc820d4c48cfe8a2678ff6f11438f5748c9584c09627711212a060e4dd38d6d2a40b32a72450a4b42e7688a4fd368dd0
   languageName: node
   linkType: hard
 
@@ -3457,7 +3457,7 @@ __metadata:
   resolution: "prettier-config-random@workspace:."
   dependencies:
     "@jonahsnider/util": 8.10.0
-    "@types/node": 16.11.22
+    "@types/node": 16.11.24
     prettier: 2.5.1
     semantic-release: 18.0.1
   languageName: unknown
