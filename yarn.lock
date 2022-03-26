@@ -3458,17 +3458,17 @@ __metadata:
   dependencies:
     "@jonahsnider/util": 9.0.0
     "@types/node": 16.11.26
-    prettier: 2.6.0
+    prettier: 2.6.1
     semantic-release: 18.0.1
   languageName: unknown
   linkType: soft
 
-"prettier@npm:2.6.0":
-  version: 2.6.0
-  resolution: "prettier@npm:2.6.0"
+"prettier@npm:2.6.1":
+  version: 2.6.1
+  resolution: "prettier@npm:2.6.1"
   bin:
     prettier: bin-prettier.js
-  checksum: 51151f1b26850c3d219846b06a7653eb641b3d0f59001cfce67ab14db26a765b84c24c7e73e2de9d6d8a6930eb378edabe5bff112652a6272a07e68e98ced172
+  checksum: 8f032972af06d598bc08bb0d7cb3b7a70d599e05be44992db4135bec360fd109149f3a838f46b4571b4c30e82f1407ec488a3218ff160a0ec0817b2ab8fee490
   languageName: node
   linkType: hard
 
