@@ -28,7 +28,7 @@
 		"@jonahsnider/util": "9.0.0"
 	},
 	"devDependencies": {
-		"@types/node": "16.11.26",
+		"@types/node": "16.11.27",
 		"prettier": "2.6.2",
 		"semantic-release": "18.0.1"
 	}
