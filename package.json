@@ -22,6 +22,7 @@
 	],
 	"scripts": {
 		"deploy": "semantic-release",
+		"style": "prettier --check .",
 		"test": "node ."
 	},
 	"dependencies": {
@@ -30,6 +31,8 @@
 	"devDependencies": {
 		"@types/node": "16.11.27",
 		"prettier": "2.6.2",
-		"semantic-release": "18.0.1"
-	}
+		"semantic-release": "18.0.1",
+		"typescript": "4.6.3"
+	},
+	"packageManager": "yarn@3.2.0"
 }
