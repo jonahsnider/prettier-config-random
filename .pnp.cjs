@@ -30,9 +30,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@jonahsnider/util", "npm:10.0.2"],\
             ["@types/node", "npm:18.17.12"],\
-            ["prettier", "npm:2.8.8"],\
+            ["prettier", "npm:3.0.2"],\
             ["semantic-release", "npm:19.0.5"],\
-            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -3833,10 +3833,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["prettier", [\
-        ["npm:2.8.8", {\
-          "packageLocation": "./.yarn/cache/prettier-npm-2.8.8-430828a36c-b49e409431.zip/node_modules/prettier/",\
+        ["npm:3.0.2", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-3.0.2-2cbecb9037-118b59ddb6.zip/node_modules/prettier/",\
           "packageDependencies": [\
-            ["prettier", "npm:2.8.8"]\
+            ["prettier", "npm:3.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3848,9 +3848,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier-config-random", "workspace:."],\
             ["@jonahsnider/util", "npm:10.0.2"],\
             ["@types/node", "npm:18.17.12"],\
-            ["prettier", "npm:2.8.8"],\
+            ["prettier", "npm:3.0.2"],\
             ["semantic-release", "npm:19.0.5"],\
-            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -4846,10 +4846,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["typescript", [\
-        ["patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587", {\
-          "packageLocation": "./.yarn/cache/typescript-patch-f8edcd7439-1f8f3b6aae.zip/node_modules/typescript/",\
+        ["patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-2e8dbfb8ab-0f4da2f15e.zip/node_modules/typescript/",\
           "packageDependencies": [\
-            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
+            ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
           "linkType": "HARD"\
         }]\
