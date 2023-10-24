@@ -29,7 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@jonahsnider/util", "npm:10.2.0"],\
-            ["@types/node", "npm:18.18.6"],\
+            ["@types/node", "npm:20.8.8"],\
             ["prettier", "npm:3.0.3"],\
             ["semantic-release", "npm:22.0.5"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
@@ -849,10 +849,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/node", [\
-        ["npm:18.18.6", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.18.6-67880ca2e3-a847639b84.zip/node_modules/@types/node/",\
+        ["npm:20.8.8", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-20.8.8-8e65100064-028a9606e4.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:18.18.6"]\
+            ["@types/node", "npm:20.8.8"],\
+            ["undici-types", "npm:5.25.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4156,7 +4157,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["prettier-config-random", "workspace:."],\
             ["@jonahsnider/util", "npm:10.2.0"],\
-            ["@types/node", "npm:18.18.6"],\
+            ["@types/node", "npm:20.8.8"],\
             ["prettier", "npm:3.0.3"],\
             ["semantic-release", "npm:22.0.5"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
@@ -5161,6 +5162,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/uglify-js-npm-3.13.4-891fd12f11-74eb2e2379.zip/node_modules/uglify-js/",\
           "packageDependencies": [\
             ["uglify-js", "npm:3.13.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["undici-types", [\
+        ["npm:5.25.3", {\
+          "packageLocation": "./.yarn/cache/undici-types-npm-5.25.3-2ac9eafc9e-ec9d2cc365.zip/node_modules/undici-types/",\
+          "packageDependencies": [\
+            ["undici-types", "npm:5.25.3"]\
           ],\
           "linkType": "HARD"\
         }]\
