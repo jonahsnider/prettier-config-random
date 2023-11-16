@@ -28,7 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@jonahsnider/util", "npm:10.2.0"],\
+            ["@jonahsnider/util", "npm:10.3.0"],\
             ["@types/node", "npm:20.9.0"],\
             ["prettier", "npm:3.1.0"],\
             ["semantic-release", "npm:22.0.7"],\
@@ -146,10 +146,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@jonahsnider/util", [\
-        ["npm:10.2.0", {\
-          "packageLocation": "./.yarn/cache/@jonahsnider-util-npm-10.2.0-b0f1dc9d9f-da605c0375.zip/node_modules/@jonahsnider/util/",\
+        ["npm:10.3.0", {\
+          "packageLocation": "./.yarn/cache/@jonahsnider-util-npm-10.3.0-8956ff9e16-8bf54ae0b4.zip/node_modules/@jonahsnider/util/",\
           "packageDependencies": [\
-            ["@jonahsnider/util", "npm:10.2.0"]\
+            ["@jonahsnider/util", "npm:10.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4191,7 +4191,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["prettier-config-random", "workspace:."],\
-            ["@jonahsnider/util", "npm:10.2.0"],\
+            ["@jonahsnider/util", "npm:10.3.0"],\
             ["@types/node", "npm:20.9.0"],\
             ["prettier", "npm:3.1.0"],\
             ["semantic-release", "npm:22.0.7"],\
@@ -16022,7 +16022,7 @@ function makeManager(pnpapi, opts) {
     apiEntry.lastRefreshCheck = timeNow;
     const stats = opts.fakeFs.statSync(pnpApiPath);
     if (stats.mtime > apiEntry.stats.mtime) {
-      process.emitWarning(`[Warning] The runtime detected new informations in a PnP file; reloading the API instance (${npath.fromPortablePath(pnpApiPath)})`);
+      process.emitWarning(`[Warning] The runtime detected new information in a PnP file; reloading the API instance (${npath.fromPortablePath(pnpApiPath)})`);
       apiEntry.stats = stats;
       apiEntry.instance = loadApiInstance(pnpApiPath);
     }
