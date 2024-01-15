@@ -29,7 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@jonahsnider/util", "npm:10.3.0"],\
-            ["@types/node", "npm:20.11.2"],\
+            ["@types/node", "npm:20.11.3"],\
             ["prettier", "npm:3.2.2"],\
             ["semantic-release", "npm:22.0.12"],\
             ["typescript", "patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
@@ -849,10 +849,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/node", [\
-        ["npm:20.11.2", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-20.11.2-767862562e-28ce6425cd.zip/node_modules/@types/node/",\
+        ["npm:20.11.3", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-20.11.3-78cf05078e-56d58fec13.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:20.11.2"],\
+            ["@types/node", "npm:20.11.3"],\
             ["undici-types", "npm:5.26.5"]\
           ],\
           "linkType": "HARD"\
@@ -4225,7 +4225,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["prettier-config-random", "workspace:."],\
             ["@jonahsnider/util", "npm:10.3.0"],\
-            ["@types/node", "npm:20.11.2"],\
+            ["@types/node", "npm:20.11.3"],\
             ["prettier", "npm:3.2.2"],\
             ["semantic-release", "npm:22.0.12"],\
             ["typescript", "patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
