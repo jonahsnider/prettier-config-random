@@ -32,7 +32,7 @@
 		"@types/node": "20.11.30",
 		"prettier": "3.2.5",
 		"semantic-release": "22.0.12",
-		"typescript": "5.4.2"
+		"typescript": "5.4.3"
 	},
 	"packageManager": "yarn@3.8.1"
 }
